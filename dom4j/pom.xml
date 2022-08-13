@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.4.1-SNAPSHOT</version>
+        <version>1.4.1</version>
         <groupId>org.jibx.config.external</groupId>
         <artifactId>jibx-external-reactor</artifactId>
     </parent>
 
     <artifactId>org.apache.servicemix.bundles.dom4j</artifactId>
-    <version>1.6.1_6-SNAPSHOT</version>
+    <version>1.6.1_6</version>
     <packaging>bundle</packaging>
 
     <properties>
@@ -40,7 +40,7 @@
         <dependency>
             <groupId>${artifactGroup}</groupId>
             <artifactId>${project.artifactId}</artifactId>
-            <version>${project.version}</version>
+            <version>1.6.1_6</version>
             <optional>true</optional>
         </dependency>
     </dependencies>

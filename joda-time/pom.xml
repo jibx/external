@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <version>1.4.1-SNAPSHOT</version>
+        <version>1.4.1</version>
         <groupId>org.jibx.config.external</groupId>
         <artifactId>jibx-external-reactor</artifactId>
     </parent>
 
     <artifactId>joda-time</artifactId>
-    <version>2.10.14-SNAPSHOT</version>
+    <version>2.10.14</version>
     <packaging>bundle</packaging>
 
     <properties>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>${artifactGroup}</groupId>
             <artifactId>${project.artifactId}</artifactId>
-            <version>${project.version}</version>
+            <version>2.10.14</version>
             <optional>true</optional>
         </dependency>
     </dependencies>
